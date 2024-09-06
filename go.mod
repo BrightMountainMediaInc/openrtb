@@ -1,3 +1,3 @@
-module github.com/bsm/openrtb/v3
+module github.com/BrightMountainMediaInc/openrtb/v3
 
 go 1.13
