@@ -13,7 +13,7 @@ Requires Go 1.8+ for proper `json.RawMessage` marshaling.
 To install, use `go get`:
 
 ```shell
-go get github.com/bsm/openrtb/v3
+go get github.com/BrightMountainMediaInc/openrtb/v3
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ package main
 
 import (
   "log"
-  "github.com/bsm/openrtb/v3"
+  "github.com/BrightMountainMediaInc/openrtb/v3"
 )
 
 func main() {

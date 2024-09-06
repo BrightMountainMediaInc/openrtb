@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/bsm/openrtb/v3"
+	. "github.com/BrightMountainMediaInc/openrtb/v3"
 )
 
 func TestNative(t *testing.T) {
