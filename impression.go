@@ -35,6 +35,7 @@ type Impression struct {
 	Quantity              *Quantity       `json:"qty,omitempty"`          // Includes the impression multiplier, and describes its source.
 	Exp                   int             `json:"exp,omitempty"`          // Advisory as to the number of seconds that may elapse between the auction and the actual impression.
 	IFrameBusters         []string        `json:"iframebuster,omitempty"` // Array of names for supportediframe busters.
+	Rewarded      		  int 			  `json:"rwdd,omitempty"`
 	Ext                   json.RawMessage `json:"ext,omitempty"`
 }
 
